@@ -2,7 +2,7 @@
     <ion-page>
         <ion-header :translucent="true">
             <ion-toolbar>
-                <ion-title>宁辉岳nb</ion-title>
+                <ion-title>宁辉岳nnnnnnnb</ion-title>
             </ion-toolbar>
         </ion-header>
 

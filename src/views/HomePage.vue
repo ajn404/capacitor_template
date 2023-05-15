@@ -25,17 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-    IonContent,
-    IonHeader,
-    IonList,
-    IonPage,
-    IonRefresher,
-    IonRefresherContent,
-    IonTitle,
-    IonToolbar,
-} from '@ionic/vue';
-import MessageListItem from '@/components/MessageListItem.vue';
+
 import { getMessages, Message } from '@/data/messages';
 import { ref } from 'vue';
 

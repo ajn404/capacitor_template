@@ -18,9 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonIcon, IonItem, IonLabel, IonNote } from '@ionic/vue';
 import { chevronForward } from 'ionicons/icons';
-
 defineProps({
     message: Object,
 });

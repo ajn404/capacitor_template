@@ -25,12 +25,9 @@
 </template>
 
 <script setup lang="ts">
-
 import { getMessages, Message } from '@/data/messages';
 import { ref } from 'vue';
-
 const messages = ref<Message[]>(getMessages());
-
 const refresh = (ev: CustomEvent) => {
     setTimeout(() => {
         ev.detail.complete();

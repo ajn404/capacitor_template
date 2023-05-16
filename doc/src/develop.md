@@ -46,3 +46,9 @@ export default defineConfig({
     }),
 })
 ```
+
+### use tailwind
+```shell
+npm install -D tailwindcss
+npx tailwindcss init
+```

@@ -4,6 +4,7 @@ import path from 'path';
 import { defineConfig, type PluginOption } from 'vite';
 import { visualizer } from 'rollup-plugin-visualizer';
 import Components from 'unplugin-vue-components/vite';
+import postcssConfig from './config/postcss.config';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -28,6 +29,15 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+    },
+  },
+  css: {
+    postcss: postcssConfig,
+    devSourcemap: true,
+    preprocessorOptions: {
+      css: {
+        charset: false,
+      },
     },
   },
 });

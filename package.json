@@ -21,6 +21,7 @@
     "@capacitor/ios": "5.0.3",
     "@capacitor/keyboard": "^5.0.2",
     "@capacitor/status-bar": "^5.0.2",
+    "@ionic/pwa-elements": "^3.1.1",
     "@ionic/vue": "^7.0.6",
     "@ionic/vue-router": "^7.0.6",
     "ionicons": "^7.1.0",
@@ -28,7 +29,10 @@
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
+    "@capacitor/camera": "^5.0.2",
     "@capacitor/cli": "5.0.3",
+    "@capacitor/filesystem": "^5.0.2",
+    "@capacitor/preferences": "^5.0.2",
     "@types/postcss-import": "^14.0.0",
     "@vitejs/plugin-legacy": "^4.0.3",
     "@vitejs/plugin-vue": "^4.2.3",

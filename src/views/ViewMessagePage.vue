@@ -24,9 +24,11 @@
 
             <div class="ion-padding">
                 <h1>{{ message.subject }}</h1>
-                <p>
+                <p @click="takePhoto">
                     嗨嗨嗨
                 </p>
+
+
             </div>
         </ion-content>
     </ion-page>
@@ -36,6 +38,9 @@
 import { useRoute } from 'vue-router';
 import { personCircle } from 'ionicons/icons';
 import { getMessage } from '../data/messages';
+import { usePhotoGallery } from '@/composables/usePhotoGallery';
+
+const { takePhoto } = usePhotoGallery();
 
 const getBackButtonText = () => {
     const win = window as any;

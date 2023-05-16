@@ -33,7 +33,6 @@ export default defineConfig({
   },
   css: {
     postcss: postcssConfig,
-    devSourcemap: true,
     preprocessorOptions: {
       css: {
         charset: false,
